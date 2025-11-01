@@ -16,14 +16,15 @@ Each dataset JSON contains:
 ```json
 {
   "directed": true,
-  "n": <number_of_nodes>,
+  "n": 6,
   "edges": [
-    {"u": <from>, "v": <to>, "w": <weight>},
-    ...
+    {"u": 0, "v": 1, "w": 8},
+    {"u": 1, "v": 2, "w": 4}
   ],
   "source": 0,
   "weight_model": "edge"
 }
+
 ```
 
 ## 3. Running the project
